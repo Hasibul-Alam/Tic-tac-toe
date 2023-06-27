@@ -1,0 +1,6 @@
+{
+    "semicolon" : true ,
+    "bracketSpacing" : false,
+    "singleAttributePerLine": false,
+    "proseWrap": "preserve"
+}

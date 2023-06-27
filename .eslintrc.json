@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["airbnb","prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi":"warn",
+        "no-undef":"off",
+        "func-names":"off",
+        "no-unused-vars":"warn",
+        "import/no-extraneous-dependencies": ["off", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
+        "import/extensions": ["warn", {"js": "always", "json": "never"}]
+}
+    }
