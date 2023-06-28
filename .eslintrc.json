@@ -15,6 +15,7 @@
         "func-names":"off",
         "no-unused-vars":"warn",
         "import/no-extraneous-dependencies": ["off", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
-        "import/extensions": ["warn", {"js": "always", "json": "never"}]
+        "import/extensions": ["warn", {"js": "always", "json": "never"}],
+        "no-plusplus":"off"
 }
     }
